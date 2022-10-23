@@ -16,3 +16,7 @@ btn.onclick = () => {
     }
 }
 
+Telegram.WebApp.onEvent("mainButtonClicked", function() {
+    tg.sendData('котик')
+})
+
